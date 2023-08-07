@@ -1,0 +1,19 @@
+/*comentario en CSS*/
+
+body ul{
+    background-color: black;
+    color: white;
+}
+
+/*Borra los estilos de la lista MUY UTIL*/
+ol {
+    list-style-type: none;
+}
+
+p {
+    font-family: monospace;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+}
