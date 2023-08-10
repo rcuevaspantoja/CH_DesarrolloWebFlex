@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Declaración de estilos, rel habla de la relación del archivo enlacado con el archivo actual -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- Script para Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+
+    <!--SCRIPT FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/14c99fbd86.js" crossorigin="anonymous"></script>
 
     <title>Impresiones 3D</title>
   </head>
@@ -17,25 +25,67 @@
           <li><a href="./index.html">Inicio</a></li>
           <li><a href="./pages/modelos.html">Modelos</a></li>
           <li><a href="./pages/cotizar.html">Cotizar</a></li>
+          <li><a href="./pages/nosotros.html">Nosotros</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
+        <img id="logo_navbar" src="./images/3d_logo.png" alt="logo" />
       </nav>
-      <img src="" alt="logo" />
     </header>
 
-    <!--Cuerpo de la página-->
+    <!--CUERPO DE PAGINA-->
     <main>
-      <section></section>
-    </main>
+      <section>
 
+        <div> <!-- Modelos más descargados-->
+          <h1>Top en Descargas</h1>
+            <div id="div-card">
+              <img id="img-card" src="./images/productos/reposalibros.jpg" alt="Foto producto">
+              <div>
+                <h2>Reposa Libros</h2>
+                <p>Reposa libros con figura decorativa.</p>
+              </div>
+              <button>Ver Mas</button>
+            </div>
+        </div>
+
+        <div> <!--Modelos Recientes-->
+          <h1>Modelos Recientes</h1>
+          <div id="div-card">
+            <img id="img-card" src="./images/productos/dispensador-bebidas.jpg" alt="Foto producto">
+            <div>
+              <h2>Dispensador de Bebidas</h2>
+              <p>Comodo dispensador de bebidas para guardar en la nevera.</p>
+            </div>
+            <button>Ver Mas</button>
+          </div>
+  
+          <div id="div-card">
+            <img id="img-card" src="./images/productos/soporte-para-ipad.jpg" alt="Foto producto">
+            <div>
+              <h2>Soporte para iPad</h2>
+              <p>Soporte de tripie para dispositivos iPad, ajustable.</p>
+            </div>
+            <button>Ver Mas</button>
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+    <!--FIN DEL CUERPO DE PAGINA-->
     <!--Pie de pagina-->
     <footer>
       <!--Redes Sociales-->
       <section>
-        <ul>
-            <h3>Redes</h3>
+        <h3>Redes</h3>
+        <ul>            
           <li>
-            <h4>Contacto: <a href="#">+56 9 1111 1111</a></h4>
-            <h4>Instagram: <a href="#">@impresiones3Dconce</a></h4>
+             <i class="fa-solid fa-address-card fa-lg"></i> 
+             <a id="link-footer" href="#">+56 9 1111 1111</a>    
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram fa-lg"></i>  
+            <a id="link-footer" href="#">@impresiones3DChile</a>
           </li>
         </ul>
       </section>
@@ -50,9 +100,9 @@
       <section>
         <h3>¿Dónde buscar modelos?</h3>
         <ul>
-            <li><a href="https://www.printables.com/">Printables</a></li>
-            <li><a href="https://www.thingiverse.com/">Thingiverse</a></li>
-            <li><a href="https://cults3d.com/en">Cults</a></li>
+            <li><a id="link-footer" href="https://www.printables.com/">Printables</a></li>
+            <li><a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a></li>
+            <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
         </ul>
       </section>
     </footer>

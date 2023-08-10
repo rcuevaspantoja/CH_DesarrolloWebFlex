@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Declaración de estilos, rel habla de la relación del archivo enlacado con el archivo actual -->
+    <link rel="stylesheet" href="../styles/index.css">
+
+    <!-- Script para Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+
+    <!--SCRIPT FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/14c99fbd86.js" crossorigin="anonymous"></script>
+
+    <title>Impresiones 3D</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./modelos.html">Modelos</a></li>
+            <li><a href="./cotizar.html">Cotizar</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <img id="logo_navbar" src="../images/3d_logo.png" alt="logo" />
+      </nav>
+    </header>
+
+    <!--CUERPO DE PAGINA-->
+    <main>
+      <section>
+        <section> <!--Introducción al contenido de página-->
+            <h1>Cotizar</h1>
+            <br>
+            <p>De seguro tienes una idea increible para algún proyecto, a continuación cuentanos todo de ella y adjunta algúna referencia en caso de ser necesaria, nosotros nos pondremos en contacto contigo!</p>
+        </section>
+
+        <section> <!--Formulario-->
+            <form action="###.php" method="POST"> 
+                <label for="">Correo Electronico</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                <br>
+                <label for="">Detalle de tu idea</label>
+                    <br>
+                    <textarea name="" id="" cols="40" rows="15"></textarea>
+                <br>
+                <label for="">Adjuntar archivo </label>
+                <br>
+                <input type="file" id="myFile" name="filename">
+            </form> 
+            <br>
+            <button type="button">Enviar</button>
+        </section>
+
+    <!--FIN DEL CUERPO DE PAGINA-->
+      </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+      <!--Redes Sociales-->
+      <section>
+        <h3>Redes</h3>
+        <ul>            
+          <li>
+             <i class="fa-solid fa-address-card fa-lg"></i> 
+             <a id="link-footer" href="#">+56 9 1111 1111</a>    
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram fa-lg"></i>  
+            <a id="link-footer" href="#">@impresiones3DChile</a>
+          </li>
+        </ul>
+      </section>
+
+      <!--Mapa de Google-->
+      <section>
+        <h3>Encuentranos en</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6389.812700059307!2d-73.0678582748105!3d-36.79679570830248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b50ae8e36827%3A0xbfdafbd1db81a857!2sibis%20Concepci%C3%B3n!5e0!3m2!1sen!2scl!4v1690572239920!5m2!1sen!2scl" width="200"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <!--Sugerencia de páginas para buscar modelos 3D-->
+      <section>
+        <h3>¿Dónde buscar modelos?</h3>
+        <ul>
+            <li><a id="link-footer" href="https://www.printables.com/">Printables</a></li>
+            <li><a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a></li>
+            <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
