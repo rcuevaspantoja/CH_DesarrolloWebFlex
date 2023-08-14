@@ -1,6 +1,9 @@
 # Desarrollo-web-flex
  Repo donde subiré mis archivos, apuntes y tareas correspondientes al curso de desarrollo flex de CoderHouse.
 
+# Live version proyecto final
+[Click en el enlace](https://desarrollo-web-flex.vercel.app/)
+
 # Entregas
  Las entregas para la clase serán subidas mediante ramas y conteniendo el "proyectofinal.zip" como archivo a evaluar. Cada rama representará una entrega.
 
