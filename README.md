@@ -6,3 +6,13 @@
 
  # Apuntes
  Los apuntes de cada clase se encuentran dentro de la carpeta Misc. de cada semana. Ejemplo:  "./week1/misc/" contrendrá en PDF los apuntes tomados tanto en los videos como clase de la semana que la contenga.
+
+# Requisitos para la Entrega 1
+
+- [X] 10 Wireframe (en cualquier formato)
+- [X] 5 archivos HTML
+- [X] Archivo de estilos
+
+# Entrega 1
+ Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile.
+
