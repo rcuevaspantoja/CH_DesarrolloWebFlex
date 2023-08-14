@@ -14,6 +14,6 @@
 - [X] Archivo de estilos
 
 # Entrega 1
- <p>Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile.<p/> 
-  <br>
-<p>[Link de Descarga](https://github.com/rcuevaspantoja/desarrollo-web-flex/blob/main/proyectofinal-entrega1.zip)</p>
+Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile. [Link de Descarga](https://github.com/rcuevaspantoja/desarrollo-web-flex/blob/main/proyectofinal-entrega1.zip)
+
+
