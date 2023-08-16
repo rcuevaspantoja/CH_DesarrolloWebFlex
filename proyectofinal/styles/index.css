@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -10,18 +9,45 @@ body {
 }
 
 /* NAVBAR */
-nav {
+.banner-titulo{
+  height: 200px;
+  width: 100%;
+  background-image: url(/proyectofinal/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.banner-titulo h1{
   display: flex;
+  padding: 20px;
+  color: white;
+  font-size: 120px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  padding: 5px 0 5px;
   background-color: darkslateblue;
-  padding: 10px;
-  padding-left: 20px;
   justify-content: space-between;
   box-shadow: 0 5px 5px rgb(46, 40, 90);
+  margin-bottom: 50px;
 }
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
 #logo_navbar {
   width: 75px;
+  padding-right: 15px;
 }
 .enlace-navbar {
+  padding-left: 20px;
   color: white;
   /* elimina la decoración */
   text-decoration: none;
@@ -30,7 +56,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 500px ;
   /*remueve el punto de lista ul li*/
   list-style-type: none;
 }
@@ -84,8 +110,6 @@ footer ul {
   background-color: darkslateblue;
   color: white;
   margin: 5px;
-  box-shadow: 5px 5px 10px black;
-  
 }
 
 #img-card {
@@ -104,6 +128,8 @@ footer ul {
     margin: 10px;
     text-decoration: underline;
 }
+
+
 
 /* Nosotros */
 #foto-nosotros {
