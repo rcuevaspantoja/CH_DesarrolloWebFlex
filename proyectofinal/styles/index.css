@@ -13,8 +13,8 @@ body {
   height: 200px;
   width: 100%;
   background-image: url(/proyectofinal/images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-repeat: repeat;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -24,7 +24,7 @@ body {
   color: white;
   font-size: 120px;
   font-family: 'Bebas Neue', sans-serif;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
 }
 
 .navbar{
@@ -108,6 +108,7 @@ footer ul {
   width: 250px;
   height: 400px;
   background-color: darkslateblue;
+  border: solid 2px rgb(32, 28, 63);
   color: white;
   margin: 5px;
 }
@@ -115,7 +116,6 @@ footer ul {
 #img-card {
   width: 100%;
   height: 200px;
-  border: solid 2px rgb(32, 28, 63);
   /* corta la imagen para que calce */
   object-fit: cover;
 }
