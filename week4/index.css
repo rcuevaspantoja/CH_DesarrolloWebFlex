@@ -1,0 +1,10 @@
+/*Padre Grid contenedor de item-grid's*/
+.contenedor{
+    border: 4px solid;
+    display: grid;
+    grid-template-rows: 150px 150px;
+}
+
+.item{
+    border: 1px solid red;
+}
