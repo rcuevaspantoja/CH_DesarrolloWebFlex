@@ -8,9 +8,13 @@ body {
   font-size: 20px;
 }
 
-/* NAVBAR */
-.banner-titulo{
-  height: 200px;
+section h1 {
+  font-size: 55px;
+}
+
+/*BANNER*/
+.banner{
+  height: 120px;
   width: 100%;
   background-image: url(/proyectofinal/images/banner.jpg);
   background-repeat: repeat;
@@ -18,15 +22,16 @@ body {
   background-position: center;
 }
 
-.banner-titulo h1{
+.banner h1{
   display: flex;
-  padding: 20px;
+  padding: 5px;
   color: white;
   font-size: 120px;
   font-family: 'Bebas Neue', sans-serif;
   text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
 }
-
+/*FIN BANNER*/
+/* NAVBAR */
 .navbar{
   display: flex;
   width: 100%;
