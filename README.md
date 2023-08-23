@@ -1,6 +1,9 @@
 # Desarrollo-web-flex
  Repo donde subiré mis archivos, apuntes y tareas correspondientes al curso de desarrollo flex de CoderHouse.
 
+ #Wireframe
+ [Click aquí](https://github.com/rcuevaspantoja/desarrollo-web-flex/blob/main/proyectofinal/Wireframe-balsamiq.pdf)
+
 # Live version proyecto final
 [Click en el enlace](https://desarrollo-web-flex.vercel.app/)
 
