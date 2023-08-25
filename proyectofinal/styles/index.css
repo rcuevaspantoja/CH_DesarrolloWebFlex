@@ -103,6 +103,11 @@ main {
   background-color: aqua;
 }
 
+#card-content h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
 /*DECORACION INDEX BODY*/
 
 /*ESTILOS MODELOS BODY*/
