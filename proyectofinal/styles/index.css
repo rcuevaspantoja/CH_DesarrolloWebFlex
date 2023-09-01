@@ -75,7 +75,6 @@ main {
 /*DECORACION TITULOS Y CARDS */
 .titulo-div {
   font-size: 50px;
-  text-decoration: underline;
 }
 /*ESTILOS CARDS*/
 #div-card {
@@ -111,6 +110,11 @@ main {
 /*DECORACION INDEX BODY*/
 
 /*ESTILOS MODELOS BODY*/
+.modelos{
+  background-color: red;
+  margin: 0px 50px 0 50px;
+}
+
 .contenedor-cards {
   display: grid;
   grid-template-columns: repeat(4, 25%);
