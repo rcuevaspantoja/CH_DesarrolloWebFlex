@@ -14,21 +14,23 @@ section h1 {
 
 /*BANNER*/
 .banner {
+  display: flex;
+  justify-content: center;
   height: 120px;
   width: 100%;
   background-image: url(/proyectofinal/images/banner.jpg);
   background-repeat: repeat;
   background-size: 100%;
   background-position: center;
+  text-align: center;
 }
 
 .banner h1 {
   display: flex;
-  padding: 5px;
   color: white;
   font-size: 120px;
   font-family: "Bebas Neue", sans-serif;
-  text-shadow: 0 0 10px #ff0000, 0 0 10px #0000ff;
+  text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
 }
 
 /*ESTILOS NAVBAR */
@@ -68,7 +70,7 @@ nav ul {
 main {
   /* Borrar despues */
   padding-top: 25px;
-  height: 1500px;
+  min-height: 1060px;
   background-color: rgb(250, 245, 239);
 }
 
@@ -93,13 +95,13 @@ main {
   /* corta la imagen para que calce */
   object-fit: cover;
   border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 5px 5px -5px gray;
 }
 
 #card-content{
   height: 185px;
   width: auto;
   margin: 5px;
-  background-color: aqua;
 }
 
 #card-content h2{
@@ -108,17 +110,30 @@ main {
 }
 
 /*DECORACION INDEX BODY*/
+.contenedor-cards-index {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  margin: 0px 150px 0 150px;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.titulo-div2{
+  margin-top: 15px;
+}
 
 /*ESTILOS MODELOS BODY*/
 .modelos{
-  background-color: red;
-  margin: 0px 50px 0 50px;
+  margin-left: 100px;
+  text-align: center;
 }
 
-.contenedor-cards {
+.contenedor-cards-modelos{
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(5, 20%);
+  margin: 0px 150px 0 150px;
   grid-template-rows: auto;
+  justify-items: center;
 }
 
 /*ESTILOS COTIZAR BODY*/
