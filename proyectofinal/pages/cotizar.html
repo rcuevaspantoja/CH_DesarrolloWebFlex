@@ -3,28 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Declaración de estilos, rel habla de la relación del archivo enlacado con el archivo actual -->
-    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/index.css" />
 
     <!-- Script para Fuentes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+      rel="stylesheet"
+    />
     <!--SCRIPT FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/14c99fbd86.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/14c99fbd86.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Impresiones 3D</title>
   </head>
   <body>
     <!--Navbar-->
-    <div> <!--BANNER-->
+    <div>
+      <!--BANNER-->
       <div class="banner">
         <h1>IMPRESIONES3DCHILE</h1>
       </div>
     </div>
-    
+
     <header>
       <nav class="navbar">
         <ul>
@@ -40,32 +50,36 @@
 
     <!--CUERPO DE PAGINA-->
     <main>
-      <section class="modelos">
-        <section> <!--Introducción al contenido de página-->
-            <h1 class="titulo-div">Cotizar</h1>
-            <br>
-            <p>De seguro tienes una idea increible para algún proyecto, a continuación cuentanos todo de ella y adjunta algúna referencia en caso de ser necesaria, nosotros nos pondremos en contacto contigo!</p>
-        </section>
+      <section class="body-tab">
+        <!--Introducción al contenido de página-->
+        <h1 class="titulo-div">Cotizar</h1>
+        <br />
+        <p class="texto-cotizar">
+          En impresiones3DChile nos interesa escuchar tus ideas y poder
+          llevarlas a cabo. De seguro tienes una idea increible para algún
+          proyecto, a continuación cuentanos todo de ella y adjunta algúna
+          referencia en caso de ser necesaria, nosotros nos pondremos en
+          contacto contigo!
+        </p>
+          <!--Formulario-->
+          <form class="formulario" action="###.php" method="POST">
+            <div class="email">
+              <label class="label-form" for="">Correo Electronico</label>
+              <input type="email" name="email" id="email" />
+            </div>
 
-        <section> <!--Formulario-->
-            <form action="###.php" method="POST"> 
-                <label for="">Correo Electronico</label>
-                    <br>
-                    <input type="email" name="email" id="email">
-                <br>
-                <label for="">Detalle de tu idea</label>
-                    <br>
-                    <textarea name="" id="" cols="40" rows="15"></textarea>
-                <br>
-                <label for="">Adjuntar archivo </label>
-                <br>
-                <input type="file" id="myFile" name="filename">
-            </form> 
-            <br>
-            <button type="button">Enviar</button>
-        </section>
+            <div class="detalle-idea">
+              <label class="label-form" for="">Detalle de tu idea</label>
+              <textarea name="" id="" cols="40" rows="15"></textarea>
+            </div>
 
-    <!--FIN DEL CUERPO DE PAGINA-->
+            <div class="archivo-adjunto">
+              <label class="label-form" for="">Adjuntar archivo </label>
+              <input type="file" id="myFile" name="filename" />
+            </div>
+          </form>
+          <button class="boton" ="button">Enviar</button>
+        <!--FIN DEL CUERPO DE PAGINA-->
       </section>
     </main>
 
@@ -74,13 +88,13 @@
       <!--Redes Sociales-->
       <section>
         <h3>Redes</h3>
-        <ul>            
+        <ul>
           <li>
-             <i class="fa-solid fa-address-card fa-lg"></i> 
-             <a id="link-footer" href="#">+56 9 1111 1111</a>    
+            <i class="fa-solid fa-address-card fa-lg"></i>
+            <a id="link-footer" href="#">+56 9 1111 1111</a>
           </li>
           <li>
-            <i class="fa-brands fa-instagram fa-lg"></i>  
+            <i class="fa-brands fa-instagram fa-lg"></i>
             <a id="link-footer" href="#">@impresiones3DChile</a>
           </li>
         </ul>
@@ -96,9 +110,17 @@
       <section>
         <h3>¿Dónde buscar modelos?</h3>
         <ul>
-            <li><a id="link-footer" href="https://www.printables.com/">Printables</a></li>
-            <li><a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a></li>
-            <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
+          <li>
+            <a id="link-footer" href="https://www.printables.com/"
+              >Printables</a
+            >
+          </li>
+          <li>
+            <a id="link-footer" href="https://www.thingiverse.com/"
+              >Thingiverse</a
+            >
+          </li>
+          <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
         </ul>
       </section>
     </footer>
