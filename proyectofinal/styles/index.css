@@ -28,7 +28,7 @@ section h1 {
 .banner h1 {
   display: flex;
   color: white;
-  font-size: 120px;
+  font-size: 100px;
   font-family: "Bebas Neue", sans-serif;
   text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
 }
@@ -85,7 +85,7 @@ main {
   background-color: rgb(254, 251, 255);
   border-radius: 5px;
   color: rgb(0, 0, 0);
-  margin: 5px;
+  margin: 15px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35) ;
 }
 
@@ -131,7 +131,7 @@ main {
 .contenedor-cards-modelos{
   display: grid;
   grid-template-columns: repeat(5, 20%);
-  margin: 0px 150px 0 150px;
+  margin: 0px 150px 0px 150px;
   grid-template-rows: auto;
   justify-items: center;
 }
@@ -150,28 +150,31 @@ footer {
   background-color: darkslateblue;
   color: white;
   justify-content: center;
+  box-shadow: 0 -3px 10px rgb(46, 40, 90);
 }
 footer section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  //border-left: solid 5px rgb(202, 154, 227);
   padding-left: 5px;
   padding-top: 5px;
   width: 33vw;
   padding-bottom: 15px;
 }
 
-.titulo-footer {
+footer h3 {
   margin-top: 5px;
-  /*Cambia la fuente del H3*/
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: underline;
   padding-bottom: 25px;
 }
 
 footer ul {
   list-style-type: none;
+}
+
+footer li{
+  margin-bottom: 10px;
 }
 
 #link-footer {
