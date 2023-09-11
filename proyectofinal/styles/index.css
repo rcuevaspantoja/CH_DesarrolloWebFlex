@@ -33,38 +33,9 @@ section h1 {
   text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
 }
 
-/*ESTILOS NAVBAR */
-.navbar {
-  display: flex;
-  width: 100%;
-  padding: 5px 0 5px;
-  background-color: darkslateblue;
-  justify-content: space-between;
-  box-shadow: 0 5px 5px rgb(46, 40, 90);
-}
-
-header {
-  position: sticky;
-  top: 0px;
-}
-
-#logo_navbar {
-  width: 75px;
-  padding-right: 15px;
-}
-.enlace-navbar {
-  padding-left: 20px;
-  color: white;
-  /* elimina la decoración */
-  text-decoration: none;
-}
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 500px;
-  /*remueve el punto de lista ul li*/
-  list-style-type: none;
+/*NAVBAR BOOSTRAP DECO*/
+.nav-item{
+  font-size: 25px;
 }
 
 main {
