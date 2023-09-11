@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Declaración de estilos, rel habla de la relación del archivo enlacado con el archivo actual -->
-    <link rel="stylesheet" href="../styles/index.css">
 
-    <!-- Script para Fuentes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
-    <!--SCRIPT FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/14c99fbd86.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Impresiones 3D</title>
-  </head>
+  <!-- Declaración de estilos, rel habla de la relación del archivo enlacado con el archivo actual -->
+  <link rel="stylesheet" href="../styles/index.css">
+
+  <!-- Script para Fuentes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+    rel="stylesheet">
+  <!--SCRIPT FONT AWESOME-->
+  <script src="https://kit.fontawesome.com/14c99fbd86.js" crossorigin="anonymous"></script>
+
+  <title>Impresiones 3D</title>
+</head>
+
+<body>
+  <!--Navbar-->
+
   <body>
     <!--Navbar-->
-    <body>
-      <!--Navbar-->
-      <div> <!--BANNER-->
-        <div class="banner">
-          <h1>IMPRESIONES3DCHILE</h1>
-        </div>
+    <div> <!--BANNER-->
+      <div class="banner">
+        <h1>IMPRESIONES3DCHILE</h1>
       </div>
-      
-      <header>
-        <nav class="navbar">
-          <ul>
-            <li><a class="enlace-navbar" href="../index.html">Inicio</a></li>
-            <li><a class="enlace-navbar" href="./modelos.html">Modelos</a></li>
-            <li><a class="enlace-navbar" href="./cotizar.html">Cotizar</a></li>
-            <li><a class="enlace-navbar" href="./nosotros.html">Nosotros</a></li>
-            <li><a class="enlace-navbar" href="./contacto.html">Contacto</a></li>
-          </ul>
-          <img id="logo_navbar" src="../images/3d_logo.png" alt="logo" />
-        </nav>
-      </header>
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a class="enlace-navbar" href="../index.html">Inicio</a></li>
+          <li><a class="enlace-navbar" href="./modelos.html">Modelos</a></li>
+          <li><a class="enlace-navbar" href="./cotizar.html">Cotizar</a></li>
+          <li><a class="enlace-navbar" href="./nosotros.html">Nosotros</a></li>
+          <li><a class="enlace-navbar" href="./contacto.html">Contacto</a></li>
+        </ul>
+        <img id="logo_navbar" src="../images/3d_logo.png" alt="logo" />
+      </nav>
+    </header>
     <!--CUERPO DE PAGINA-->
     <main>
       <section class="body-tab">
 
         <h1 class="titulo-div">Contacto</h1>
 
-        <div> <!--UBICACION-->
+        <div class="contacto-body">
+          <div class="contacto-ubicacion"> <!--UBICACION-->
             <h2>Ubicación</h2>
             <h3>#182 Krauel natera Parque, Zacatecas Chile</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6389.812700059307!2d-73.0678582748105!3d-36.79679570830248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b50ae8e36827%3A0xbfdafbd1db81a857!2sibis%20Concepci%C3%B3n!5e0!3m2!1sen!2scl!4v1690572239920!5m2!1sen!2scl" width="200"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6389.812700059307!2d-73.0678582748105!3d-36.79679570830248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b50ae8e36827%3A0xbfdafbd1db81a857!2sibis%20Concepci%C3%B3n!5e0!3m2!1sen!2scl!4v1690572239920!5m2!1sen!2scl"
+              width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
 
-        <div> <!--REDES SOCIALES-->
-            <i class="fa-brands fa-instagram fa-2x"></i>
-            <a href="">impresiones3DChile</a>
-            <i class="fa-solid fa-address-card fa-2x"></i>
-            <a href="tel:569-111-1111">569-111-1111</a>
-        </div>
+          <div class="contacto-redes"> <!--REDES SOCIALES-->
 
-        <div> <!--REPOSITORIO-->
-            <i class="fa-brands fa-github fa-2x"></i>
-            <a href="https://github.com/rcuevaspantoja/desarrollo-web-flex" target="_blank">Repositorio</a>
-        </div>
+            <h2>Redes de Contacto</h2>
 
+            <div class="contactos-redes-red">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+              <a href="">impresiones3DChile</a>
+            </div>
+
+            <div class="contactos-redes-red">
+              <i class="fa-solid fa-address-card fa-2x"></i>
+              <a href="tel:569-111-1111">569-111-1111</a>
+            </div>
+
+            <div class="contactos-redes-red">
+              <i class="fa-brands fa-github fa-2x"></i>
+              <a href="https://github.com/rcuevaspantoja/desarrollo-web-flex" target="_blank">Repositorio</a>
+            </div>
+
+
+          </div>
       </section>
     </main>
     <!--FIN DEL CUERPO DE PAGINA-->
@@ -71,13 +88,13 @@
       <!--Redes Sociales-->
       <section>
         <h3>Redes</h3>
-        <ul>            
+        <ul>
           <li>
-             <i class="fa-solid fa-address-card fa-lg"></i> 
-             <a id="link-footer" href="#">+56 9 1111 1111</a>    
+            <i class="fa-solid fa-address-card fa-lg"></i>
+            <a id="link-footer" href="#">+56 9 1111 1111</a>
           </li>
           <li>
-            <i class="fa-brands fa-instagram fa-lg"></i>  
+            <i class="fa-brands fa-instagram fa-lg"></i>
             <a id="link-footer" href="#">@impresiones3DChile</a>
           </li>
         </ul>
@@ -93,11 +110,12 @@
       <section>
         <h3>¿Dónde buscar modelos?</h3>
         <ul>
-            <li><a id="link-footer" href="https://www.printables.com/">Printables</a></li>
-            <li><a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a></li>
-            <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
+          <li><a id="link-footer" href="https://www.printables.com/">Printables</a></li>
+          <li><a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a></li>
+          <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
         </ul>
       </section>
     </footer>
   </body>
+
 </html>

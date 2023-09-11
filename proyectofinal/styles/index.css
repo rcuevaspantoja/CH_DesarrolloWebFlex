@@ -124,8 +124,9 @@ main {
 
 /*ESTILO BODY de cada tab*/
 .body-tab{
-  margin-left: 100px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contenedor-cards-modelos{
@@ -181,6 +182,40 @@ main {
   width: 35%;
 }
 /*ESTILOS CONTACTO BODY*/
+.contacto-body{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-top: 25px;
+}
+
+.contacto-ubicacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.contacto-ubicacion iframe{
+  margin: 10px;
+}
+
+.contacto-redes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+
+.contactos-redes-red{
+  margin-top: 10px;
+}
+
+.contactos-redes-red a{
+  text-decoration: none;
+  margin-left: 5px;
+}
+
 
 /*ESTILOS FOOTER */
 footer {
