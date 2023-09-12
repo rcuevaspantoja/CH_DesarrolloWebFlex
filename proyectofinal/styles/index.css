@@ -45,7 +45,7 @@ nav{
 main {
   /* Borrar despues */
   padding-top: 25px;
-  min-height: 1060px;
+  min-height: 900px;
   background-color: rgb(250, 245, 239);
 }
 
@@ -193,7 +193,6 @@ main {
 
 
 /*ESTILOS FOOTER */
-
 footer{
   width: 100%;
   background-color: black;
