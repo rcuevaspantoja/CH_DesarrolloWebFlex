@@ -20,8 +20,9 @@
   <!--SCRIPT FONT AWESOME-->
   <script src="https://kit.fontawesome.com/14c99fbd86.js" crossorigin="anonymous"></script>
   <!--Boostrap Link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
   <title>Impresiones 3D</title>
 </head>
 
@@ -35,9 +36,10 @@
   </div>
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" align="center">
       <div class="container-fluid" data-bs-theme="blue">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,15 +50,15 @@
             <li class="nav-item">
               <a class="nav-link" href="./pages/modelos.html">Modelos</a>
             </li>
-  
+
             <li class="nav-item">
               <a class="nav-link" href="./pages/cotizar.html">Cotizar</a>
             </li>
-  
+
             <li class="nav-item">
               <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
             </li>
-  
+
             <li class="nav-item">
               <a class="nav-link" href="./pages/contacto.html">Contacto</a>
             </li>
@@ -194,44 +196,98 @@
   <!--FIN DEL CUERPO DE PAGINA-->
   <!--Pie de pagina-->
   <footer>
-    <!--Redes Sociales-->
-    <section>
-      <h3 class="titulo-footer">Redes</h3>
-      <ul>
-        <li>
-          <i class="fa-solid fa-address-card fa-lg"></i>
-          <a id="link-footer" href="#">+56 9 1111 1111</a>
-        </li>
-        <li>
-          <i class="fa-brands fa-instagram fa-lg"></i>
-          <a id="link-footer" href="#">@impresiones3DChile</a>
-        </li>
-      </ul>
+    <section id="footer-desktop">
+      <!--Redes Sociales-->
+      <div class="footer-desktop-div">
+        <h3 class="titulo-footer">Redes</h3>
+        <ul>
+          <li>
+            <i class="fa-solid fa-address-card fa-lg"></i>
+            <a id="link-footer" href="#">+56 9 1111 1111</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram fa-lg"></i>
+            <a id="link-footer" href="#">@impresiones3DChile</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Mapa de Google-->
+      <div class="footer-desktop-div">
+        <h3 class="titulo-footer">Encuentranos en</h3>
+        <p>#182 Krauel natera Parque, Zacatecas Chile</p>
+      </div>
+
+      <!--Sugerencia de páginas para buscar modelos 3D-->
+      <div class="footer-desktop-div">
+        <h3 class="titulo-footer">¿Dónde buscar modelos?</h3>
+        <ul>
+          <li>
+            <a id="link-footer" href="https://www.printables.com/">Printables</a>
+          </li>
+          <li>
+            <a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a>
+          </li>
+          <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
+        </ul>
+      </div>
     </section>
 
-    <!--Mapa de Google-->
-    <section>
-      <h3 class="titulo-footer">Encuentranos en</h3>
-      <p>#182 Krauel natera Parque, Zacatecas Chile</p>
+    <section id="footer-mobile">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner" align="center">
+          <div class="carousel-item active">
+            <h3 class="titulo-footer">Redes</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-address-card fa-lg"></i>
+                <a id="link-footer" href="#">+56 9 1111 1111</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram fa-lg"></i>
+                <a id="link-footer" href="#">@impresiones3DChile</a>
+              </li>
+            </ul>
+          </div>
+          <div class="carousel-item">
+            <h3 class="titulo-footer">Encuentranos en</h3>
+            <p>#182 Krauel natera Parque, Zacatecas Chile</p>
+          </div>
+          <div class="carousel-item">
+            <h3 class="titulo-footer">¿Dónde buscar modelos?</h3>
+            <ul>
+              <li>
+                <a id="link-footer" href="https://www.printables.com/">Printables</a>
+              </li>
+              <li>
+                <a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a>
+              </li>
+              <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
+            </ul>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
-    <!--Sugerencia de páginas para buscar modelos 3D-->
-    <section>
-      <h3 class="titulo-footer">¿Dónde buscar modelos?</h3>
-      <ul>
-        <li>
-          <a id="link-footer" href="https://www.printables.com/">Printables</a>
-        </li>
-        <li>
-          <a id="link-footer" href="https://www.thingiverse.com/">Thingiverse</a>
-        </li>
-        <li><a id="link-footer" href="https://cults3d.com/en">Cults</a></li>
-      </ul>
-    </section>
+
+
   </footer>
 
   <!--Link de Boostrap-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

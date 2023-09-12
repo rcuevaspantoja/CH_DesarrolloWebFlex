@@ -38,6 +38,10 @@ section h1 {
   font-size: 25px;
 }
 
+nav{
+  box-shadow: 0 -3px 10px rgb(46, 40, 90);
+}
+
 main {
   /* Borrar despues */
   padding-top: 25px;
@@ -189,27 +193,29 @@ main {
 
 
 /*ESTILOS FOOTER */
-footer {
-  display: flex;
+
+footer{
+  width: 100%;
+  background-color: black;
+  box-shadow: 0 -3px 10px rgb(46, 40, 90);
   background-color: darkslateblue;
+}
+
+#footer-desktop {
+  display: flex;
   color: white;
   justify-content: center;
-  box-shadow: 0 -3px 10px rgb(46, 40, 90);
 }
-footer section {
+.footer-desktop-div {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-left: 5px;
-  padding-top: 5px;
   width: 33vw;
-  padding-bottom: 15px;
+  padding: 15px 0 15px 5px;
 }
 
 footer h3 {
-  margin-top: 5px;
   font-size: 30px;
-  text-decoration: underline;
   padding-bottom: 25px;
 }
 
@@ -224,4 +230,28 @@ footer li{
 #link-footer {
   color: white;
   text-decoration: none;
+}
+/*Ocultar el footer que se mostrara solo en mobile*/
+#footer-mobile{
+  display: none;
+}
+
+/*Comienzo de estilos para responsive*/
+@media only screen and (max-width: 1400px){
+  
+  /*Esconde el section de footer-desktop*/
+  #footer-desktop{
+    display: none;
+  }
+
+  #footer-mobile{
+    display:inline;
+    width: 100%;
+    color: white;
+  }
+  
+  footer{
+    padding: 25px;
+    height: 210px;
+  }
 }
