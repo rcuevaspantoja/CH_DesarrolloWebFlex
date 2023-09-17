@@ -26,7 +26,7 @@
 - [X] Código en Github
 
 # Entrega 1
-Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile. [Link de Descarga](https://github.com/rcuevaspantoja/desarrollo-web-flex/blob/main/proyectofinal-entrega1.zip)
+Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile.
 
 # Entrega 2
-Para esta entrega se presenta lo de la entrega 1, junto con el index.html y modelos.html de manera responsiva utilizando el módulo de estilos Grid de Boostrap, de la mano de un Navbar responsivo con un menú hamburguesa y un footer responsivo estilo carrusel. [Link de Descarga](https://github.com/rcuevaspantoja/desarrollo-web-flex/blob/main/proyectofinal-entrega2.zip)
+Para esta entrega se presenta lo de la entrega 1, junto con el index.html y modelos.html de manera responsiva utilizando el módulo de estilos Grid de Boostrap, de la mano de un Navbar responsivo con un menú hamburguesa y un footer responsivo estilo carrusel. 
