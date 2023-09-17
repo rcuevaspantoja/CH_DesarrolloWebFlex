@@ -18,7 +18,7 @@ section h1 {
   justify-content: center;
   height: 120px;
   width: 100%;
-  background-image: url(/proyectofinal/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   background-repeat: repeat;
   background-size: 100%;
   background-position: center;
