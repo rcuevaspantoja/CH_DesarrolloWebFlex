@@ -29,4 +29,4 @@
 Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile.
 
 # Entrega 2
-Para esta entrega se presenta lo de la entrega 1, junto con el index.html y modelos.html de manera responsiva utilizando el módulo de estilos Grid de Boostrap, de la mano de un Navbar responsivo con un menú hamburguesa y un footer responsivo estilo carrusel. 
+Para esta entrega se presenta lo de la entrega 1, junto con el index.html y modelos.html de manera responsiva utilizando el módulo de estilos Grid de Boostrap, de la mano de un Navbar responsivo con un menú hamburguesa y un footer responsivo estilo carrusel. Queda pendiente los otros paneles y su adaptación a responsive con Boostrap
