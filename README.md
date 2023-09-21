@@ -24,7 +24,7 @@
 - [X] 2 HTML responsive
 - [X] Uso de Boostrap
 - [X] Código en Github
-
+feedback: Mal uso de la etiqueta id, evitar margenes tan grandes.
 # Entrega 1
 Se hizo uso de divs pensando en la futura división dentro de la pantalla una vez entremos en lo que es Flex y para temas de orientaciones. Siempre pensando en su division a futuro y su futura adaptación mobile.
 
