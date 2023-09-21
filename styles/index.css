@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Fuentes */
 body {
   font-family: "Roboto Flex", sans-serif;
   font-size: 20px;
@@ -10,6 +11,11 @@ body {
 
 section h1 {
   font-size: 55px;
+}
+
+p{
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 20px;
 }
 
 /*BANNER*/
@@ -54,7 +60,7 @@ main {
   font-size: 50px;
 }
 /*ESTILOS CARDS*/
-#div-card {
+.div-card {
   width: 250px;
   height: 400px;
   background-color: rgb(254, 251, 255);
@@ -102,6 +108,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
+}
+
+/*DECORACION COTIZAR */
+.body-tab-cotizar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
 }
 
 .contenedor-cards-modelos{
@@ -110,12 +125,6 @@ main {
   margin: 0px 150px 0px 150px;
   grid-template-rows: auto;
   justify-items: center;
-}
-
-/*ESTILOS COTIZAR BODY*/
-.texto-cotizar{
-  margin: 0px 500px 25px 500px;
-  text-align: start;
 }
 
 .label-form{
