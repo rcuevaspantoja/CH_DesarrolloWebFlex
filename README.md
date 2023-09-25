@@ -34,8 +34,8 @@ Para esta entrega se presenta lo de la entrega 1, junto con el index.html y mode
 
 # Requisitos para la Entrega 3
 
-- [ ] Entrega mediante link de Repositorio
-- [ ] Activar el page (o Vercerl en este caso)
+- [X] Entrega mediante link de Repositorio
+- [X] Activar el page (o Vercerl en este caso)
 - [ ] Hacer uso de SASS
 - [ ] Archivos SCSS : mixin, variables y anidamiento
 - [ ] trasladar estilos de CSS a SCSS
