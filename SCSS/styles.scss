@@ -1,0 +1,256 @@
+/*fuentes*/
+$fuente-textos: "Roboto Flex", sans-serif;
+$fuente-titulos: "Bebas Neue", sans-serif;
+
+/* paleta de colores */
+$color_1: white;
+$color_2: rgb(0, 0, 0);
+$background-color-1: rgb(250, 245, 239);
+$background-color-2: black;
+$background-color-3: darkslateblue;
+
+/*mixin*/
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $fuente-textos;
+	font-size: 20px;
+}
+
+section {
+	h1 {
+		font-size: 55px;
+	}
+}
+
+p {
+	font-family: $fuente-textos;
+	font-size: 20px;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+    @include sizes(100%, 120px);
+	background-image: url(../images/banner.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center;
+	text-align: center;
+	h1 {
+		display: flex;
+		color: $color_1;
+		font-size: 100px;
+		font-family: $fuente-titulos;
+		text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
+	}
+}
+
+.nav-item {
+	font-size: 25px;
+}
+
+nav {
+	box-shadow: 0 -3px 10px rgb(46, 40, 90);
+}
+
+main {
+	padding-top: 25px;
+	min-height: 900px;
+	background-color: $background-color_1;
+}
+
+.titulo-div {
+	font-size: 50px;
+}
+
+.div-card {
+    @include sizes(250px, 400px);
+	background-color: $background-color_1;
+	border-radius: 5px;
+	color: $color_2;
+	margin: 15px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+#img-card {
+    @include sizes(100%, 200px);
+	object-fit: cover;
+	border-radius: 5px 5px 0px 0px;
+	box-shadow: 0px 5px 5px -5px gray;
+}
+
+#card-content {
+	height: 185px;
+	margin: 5px;
+	h2 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+}
+
+.contenedor-cards-index {
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+	margin: 0px 150px 0 150px;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+
+.titulo-div2 {
+	margin-top: 15px;
+}
+
+.body-tab {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.body-tab-cotizar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 900px;
+}
+
+.contenedor-cards-modelos {
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+	margin: 0px 150px 0px 150px;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+
+.label-form {
+	margin: 0px 15px;
+}
+
+.email {
+	margin-bottom: 15px;
+}
+
+.detalle-idea {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.archivo-adjunto {
+	margin-bottom: 15px;
+}
+
+.boton {
+	font-size: 25px;
+}
+
+.div-nosotros {
+	display: flex;
+	margin-top: 25px;
+	flex-direction: row;
+	justify-content: center;
+	p {
+		width: 700px;
+		margin-left: 25px;
+	}
+}
+
+#foto-nosotros {
+	width: 35%;
+}
+
+.contacto-body {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	margin-top: 25px;
+}
+
+.contacto-ubicacion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 25px;
+	iframe {
+		margin: 10px;
+	}
+}
+
+.contacto-redes {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 70px;
+}
+
+.contactos-redes-red {
+	margin-top: 10px;
+	a {
+		text-decoration: none;
+		margin-left: 5px;
+	}
+}
+
+footer {
+	width: 100%;
+	background-color: $background-color_2;
+	box-shadow: 0 -3px 10px rgb(46, 40, 90);
+	background-color: $background-color_3;
+	h3 {
+		font-size: 30px;
+		padding-bottom: 25px;
+	}
+	ul {
+		list-style-type: none;
+	}
+	li {
+		margin-bottom: 10px;
+	}
+}
+
+#footer-desktop {
+	display: flex;
+	color: $color_1;
+	justify-content: center;
+}
+
+.footer-desktop-div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 33vw;
+	padding: 15px 0 15px 5px;
+}
+
+#link-footer {
+	color: $color_1;
+	text-decoration: none;
+}
+
+#footer-mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+	#footer-desktop {
+		display: none;
+	}
+	#footer-mobile {
+		display: inline;
+		width: 100%;
+		color: $color_1;
+	}
+	footer {
+		padding: 25px;
+		height: 210px;
+	}
+}
