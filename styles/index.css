@@ -100,7 +100,17 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  padding-bottom: 25px;
+}
+
+.body-tab-contacto {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.body-tab-contacto iframe {
+  width: 800px;
+  height: 600px;
 }
 
 .body-tab-cotizar {
@@ -147,19 +157,12 @@ main {
   justify-content: center;
 }
 .div-nosotros p {
-  width: 700px;
+  width: 800px;
   margin-left: 25px;
 }
 
 #foto-nosotros {
   width: 35%;
-}
-
-.contacto-body {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-  margin-top: 25px;
 }
 
 .contacto-ubicacion {
@@ -169,14 +172,14 @@ main {
   margin-right: 25px;
 }
 .contacto-ubicacion iframe {
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 .contacto-redes {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 70px;
+  margin-top: 95px;
 }
 
 .contactos-redes-red {
@@ -204,7 +207,7 @@ footer li {
   margin-bottom: 10px;
 }
 
-#footer-desktop {
+.footer-desktop {
   display: flex;
   color: white;
   justify-content: center;
@@ -223,15 +226,116 @@ footer li {
   text-decoration: none;
 }
 
-#footer-mobile {
+.footer-mobile {
   display: none;
 }
 
 @media only screen and (max-width: 1400px) {
-  #footer-desktop {
+  /*BANNER*/
+  .banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+  }
+  .banner h1 {
+    color: white;
+    font-size: 14vw;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
+  }
+  /*COTIZAR*/
+  .body-tab-cotizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .email input {
+    width: 85%;
+  }
+  .detalle-idea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .archivo-adjunto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+  }
+  /*NOSOTROS*/
+  .div-nosotros {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-nosotros p {
+    width: 100%;
+    margin: 10px 5px 10px 5px;
+  }
+  #foto-nosotros {
+    width: 90%;
+  }
+  /*CONTACTO*/
+  .body-tab-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contacto-ubicacion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contacto-ubicacion h3 {
+    width: 100%;
+  }
+  .contacto-ubicacion iframe {
+    width: 90%;
+    height: 90%;
+  }
+  .contacto-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+  .contactos-redes-red {
+    text-align: start;
+  }
+  .contactos-redes-red a {
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  /*FOOTER*/
+  .footer-desktop {
     display: none;
   }
-  #footer-mobile {
+  .footer-mobile {
     display: inline;
     width: 100%;
     color: white;
