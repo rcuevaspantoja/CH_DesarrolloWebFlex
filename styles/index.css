@@ -344,6 +344,9 @@ footer li {
     padding: 25px;
     height: 210px;
   }
+  footer p {
+    padding: 0 100px 0 100px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
