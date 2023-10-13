@@ -5,7 +5,8 @@
  Wireframe en Balsamiq y exportado en PDF
 
 # Live version
-[Click en el enlace](https://desarrollo-web-flex.vercel.app/)
+[live version en VERCEL](https://desarrollo-web-flex.vercel.app/) 
+[live version en  000webhost](https://pf-rodolfocuevas.000webhostapp.com/)
 
 # SEO SCORE
 73/100 SEO CheckupScore 
