@@ -103,6 +103,13 @@ main {
   padding-bottom: 25px;
 }
 
+.body-tab-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
 .body-tab-contacto {
   display: flex;
   justify-content: center;
