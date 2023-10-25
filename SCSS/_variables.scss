@@ -1,0 +1,14 @@
+
+$fuente-textos: "Roboto Flex", sans-serif;
+$fuente-titulos: "Bebas Neue", sans-serif;
+
+$color_1: white;
+$color_2: rgb(0, 0, 0);
+$background-color-1: rgb(250, 245, 239);
+$background-color-2: black;
+$background-color-3: darkslateblue;
+
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}

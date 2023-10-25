@@ -1,0 +1,33 @@
+
+.div-nosotros {
+	display: flex;
+	margin-top: 25px;
+	flex-direction: row;
+	justify-content: center;
+	p {
+		width: 800px;
+		margin-left: 25px;
+	}
+}
+
+#foto-nosotros {
+	width: 35%;
+}
+
+@media only screen and (max-width: 1400px) {
+
+	.div-nosotros {
+		display: flex;
+		margin-top: 25px;
+		flex-direction: column;
+		align-items: center;
+		p {
+			width: 100%;
+			margin: 10px 5px 10px 5px;
+		}
+	}
+	
+	#foto-nosotros {
+		width: 90%;
+	}
+}

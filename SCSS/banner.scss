@@ -1,0 +1,41 @@
+
+.banner {
+	display: flex;
+	justify-content: center;
+    @include sizes(100%, 120px);
+	background-image: url(../images/banner.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center;
+	text-align: center;
+	h1 {
+		display: flex;
+		color: $color_1;
+		font-size: 100px;
+		font-family: $fuente-titulos;
+		text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+
+
+	.banner {
+		display: flex;
+		justify-content: center;
+		@include sizes(100%, 120px);
+		background-image: url(../images/banner.jpg);
+		background-repeat: repeat;
+		background-size: 100%;
+		background-position: center;
+		text-align: center;
+		align-items: center;
+
+		h1 {
+			color: $color_1;
+			font-size: 14vw;
+			font-family: $fuente-titulos;
+			text-shadow: 0 0 10px #ad1ec6, 0 0 10px #0000ff;
+		}
+	}
+}
