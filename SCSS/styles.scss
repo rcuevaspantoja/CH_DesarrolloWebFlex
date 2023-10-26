@@ -5,6 +5,7 @@
 @import 'tab_contacto';
 @import 'tab_nosotros';
 @import 'tab_cotizar';
+@import 'tab_introduccion';
 
 @import 'componente_card';
 
@@ -15,6 +16,9 @@
 body {
 	font-family: $fuente-textos;
 	font-size: 20px;
+}
+.row{
+	padding: 0px;
 }
 p {
 	font-family: $fuente-textos;
@@ -28,6 +32,7 @@ main {
 
 .titulo-div {
 	font-size: 50px;
+	color: $background-color_3;
 }
 
 .titulo-div2 {
@@ -41,16 +46,10 @@ main {
 	padding-bottom: 25px;
 }
 
-.body-tab-index {
-	display: flex;
-	justify-content: center;
-	padding-bottom: 15px;
-}
-
-/*Navbar*/
 nav {
 	box-shadow: 0 -3px 10px rgb(46, 40, 90);
 }
+
 .nav-item {
 	font-size: 25px;
 }

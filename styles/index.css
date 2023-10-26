@@ -1,6 +1,5 @@
 footer {
   width: 100%;
-  background-color: black;
   box-shadow: 0 -3px 10px rgb(46, 40, 90);
   background-color: darkslateblue;
 }
@@ -198,20 +197,12 @@ footer li {
     width: 90%;
   }
 }
-.body-tab-cotizar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 900px;
-}
-
 .label-form {
   margin: 0px 15px;
+  font-size: 25px;
 }
 
 .detalle-idea {
-  display: flex;
-  justify-content: center;
   margin-bottom: 15px;
 }
 
@@ -219,12 +210,23 @@ footer li {
   margin-bottom: 15px;
 }
 
-.boton {
-  font-size: 25px;
-}
-
 .email {
   margin-bottom: 15px;
+}
+
+.subtitulo-cotizar {
+  max-width: 900px;
+  margin: 0 15px 0 15px;
+}
+
+.formulario {
+  margin-top: 15px;
+  border: 2px solid black;
+  background-color: darkslateblue;
+  color: rgb(250, 245, 239);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px black;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -263,6 +265,50 @@ footer li {
     padding: 2px;
   }
 }
+.body-tab-index {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.introduccion {
+  margin: 0 50px 0 50px;
+}
+
+.emojimano {
+  display: inline;
+}
+
+@media only screen and (max-width: 1400px) {
+  .footer-desktop {
+    display: none;
+  }
+  .footer-mobile {
+    display: inline;
+    width: 100%;
+    padding-bottom: 15px;
+    color: white;
+  }
+  footer {
+    padding: 25px;
+    height: 210px;
+  }
+  footer p {
+    padding: 0 100px 0 100px;
+  }
+  .introduccion {
+    margin: 0 25px 0 25px;
+    height: 150px;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .introduccion {
+    margin: 0 25px 0 25px;
+    height: 250px;
+    overflow-y: scroll;
+  }
+}
 .div-card {
   width: 250px;
   height: 400px;
@@ -270,15 +316,13 @@ footer li {
   border-radius: 5px;
   color: rgb(0, 0, 0);
   margin: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  border: darkslateblue solid 2px;
 }
 
 .img-card {
   width: 100%;
   height: 200px;
-  object-fit: cover;
-  border-radius: 5px 5px 0px 0px;
-  box-shadow: 0px 5px 5px -5px gray;
+  box-shadow: 0px 1px 5px darkslateblue;
 }
 
 .card-content {
@@ -300,6 +344,10 @@ body {
   font-size: 20px;
 }
 
+.row {
+  padding: 0px;
+}
+
 p {
   font-family: "Roboto Flex", sans-serif;
   font-size: 20px;
@@ -313,6 +361,7 @@ main {
 
 .titulo-div {
   font-size: 50px;
+  color: darkslateblue;
 }
 
 .titulo-div2 {
@@ -326,13 +375,6 @@ main {
   padding-bottom: 25px;
 }
 
-.body-tab-index {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px;
-}
-
-/*Navbar*/
 nav {
   box-shadow: 0 -3px 10px rgb(46, 40, 90);
 }

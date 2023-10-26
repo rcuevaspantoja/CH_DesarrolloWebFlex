@@ -1,0 +1,46 @@
+.body-tab-index {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.introduccion{
+	margin: 0 50px 0 50px;
+}
+
+.emojimano{
+    display: inline;
+}
+
+@media only screen and (max-width: 1400px) {
+
+	.footer-desktop {
+		display: none;
+	}
+	.footer-mobile {
+		display: inline;
+		width: 100%;
+		padding-bottom: 15px;
+		color: $color_1;
+	}
+	footer {
+		padding: 25px;
+		height: 210px;
+		p{
+			padding: 0 100px 0 100px;
+		}
+	}
+    .introduccion{
+        margin: 0 25px 0 25px;
+        height: 150px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .introduccion{
+        margin: 0 25px 0 25px;
+        height: 250px;
+        overflow-y: scroll;
+    }
+}

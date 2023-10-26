@@ -64,36 +64,34 @@
     <!--CUERPO DE PAGINA-->
     <main>
       <section class="body-tab animate__animated animate__fadeIn">
-        <div class="body-tab-cotizar">
             <!--Introducción al contenido de página-->
           <h2 class="titulo-div">Cotizar</h2>
-          <p>
-            En impresiones3DChile nos interesa escuchar tus ideas y poder
+          <p class="subtitulo-cotizar">
+            En IMPRESIONES3DCHILE nos interesa escuchar tus ideas y poder
             llevarlas a cabo. De seguro tienes una idea increible para algún
             proyecto, a continuación cuentanos todo de ella y adjunta algúna
             referencia en caso de ser necesaria, nosotros nos pondremos en
             contacto contigo!
           </p>
             <!--Formulario-->
-            <form class="formulario" action="###.php" method="POST">
+            <form class=" formulario form-group text-center" action="###.php" method="POST">
               <div class="email">
-                <label class="label-form" for="">Correo Electronico</label>
-                <input type="email" name="email" id="email" />
+                <label class="label-form" for="email">Correo Electronico</label>
+                <input type="email" name="email" id="email" class="form-control"/>
               </div>
 
               <div class="detalle-idea">
-                <label class="label-form" for="">Detalle de tu idea</label>
-                <textarea name="" id="" cols="40" rows="15"></textarea>
+                <label class="label-form" for="detalleidea">Detalle de tu idea</label>
+                <textarea name="" id="detalleidea" cols="40" rows="15" class="form-control"></textarea>
               </div>
 
               <div class="archivo-adjunto">
                 <label class="label-form" for="">Adjuntar archivo </label>
                 <input type="file" id="myFile" name="filename" />
               </div>
+              <button class="btn btn-light">Enviar</button>
             </form>
-            <button class="boton" ="button">Enviar</button>
           <!--FIN DEL CUERPO DE PAGINA-->
-        </div>
       </section>
     </main>
 
