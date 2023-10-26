@@ -5,8 +5,8 @@
 Nunca había probado como host web la página solicitada por el curso, es compleja de usar comparada con Vercerl donde puedo improtar le proyecto directamente desde GitHub
 
 # Live version
-[live version en VERCEL](https://desarrollo-web-flex.vercel.app/) 
-[live version en  000webhost](https://pf-rodolfocuevas.000webhostapp.com/)
+* [live version en VERCEL](https://desarrollo-web-flex.vercel.app/) 
+* [live version en  000webhost](https://proyectofinal-rodolfocuevas.000webhostapp.com/index.html)
 
 
 
