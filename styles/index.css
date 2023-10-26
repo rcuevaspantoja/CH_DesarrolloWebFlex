@@ -107,6 +107,9 @@ footer li {
 .body-tab-contacto iframe {
   width: 800px;
   height: 600px;
+  border: 4px solid rgb(98, 83, 196);
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px darkslateblue;
 }
 
 .contacto-ubicacion {
@@ -175,26 +178,56 @@ footer li {
 }
 .div-nosotros p {
   width: 800px;
-  margin-left: 25px;
+  margin: 25px;
+}
+
+.div-nosotros-2 {
+  display: flex;
+  margin-top: 25px;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.div-nosotros-2 p {
+  width: 800px;
+  margin: 25px;
+  text-align: end;
 }
 
 #foto-nosotros {
   width: 35%;
+  border: 4px solid rgb(98, 83, 196);
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px darkslateblue;
 }
 
 @media only screen and (max-width: 1400px) {
   .div-nosotros {
     display: flex;
+    margin-top: 15px;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .div-nosotros p {
+    width: 90%;
+    margin: 25px;
+    text-align: start;
+  }
+  .div-nosotros-2 {
+    display: flex;
     margin-top: 25px;
+    margin: 15px;
     flex-direction: column;
     align-items: center;
   }
-  .div-nosotros p {
-    width: 100%;
-    margin: 10px 5px 10px 5px;
+  .div-nosotros-2 p {
+    width: 90%;
+    margin: 25px;
+    text-align: start;
   }
   #foto-nosotros {
-    width: 90%;
+    width: 85%;
   }
 }
 .label-form {
@@ -221,8 +254,8 @@ footer li {
 
 .formulario {
   margin-top: 15px;
-  border: 2px solid black;
-  background-color: darkslateblue;
+  border: 2px solid darkslateblue;
+  background-color: rgb(98, 83, 196);
   color: rgb(250, 245, 239);
   padding: 25px;
   border-radius: 15px;
@@ -312,17 +345,18 @@ footer li {
 .div-card {
   width: 250px;
   height: 400px;
-  background-color: rgb(250, 245, 239);
+  background-color: rgb(98, 83, 196);
   border-radius: 5px;
-  color: rgb(0, 0, 0);
+  color: white;
   margin: 10px;
-  border: darkslateblue solid 2px;
+  border: darkslateblue solid 3px;
 }
 
 .img-card {
   width: 100%;
   height: 200px;
   box-shadow: 0px 1px 5px darkslateblue;
+  object-fit: cover;
 }
 
 .card-content {

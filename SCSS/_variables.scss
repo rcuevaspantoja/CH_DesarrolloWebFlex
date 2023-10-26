@@ -7,6 +7,7 @@ $color_2: rgb(0, 0, 0);
 $background-color-1: rgb(250, 245, 239);
 $background-color-2: black;
 $background-color-3: darkslateblue;
+$background-color-4: rgb(98, 83, 196);
 
 @mixin sizes($width, $height){
     width: $width;
