@@ -6,7 +6,7 @@ Nunca había probado como host web la página solicitada por el curso, es comple
 
 # Live version
 * [live version en VERCEL](https://desarrollo-web-flex.vercel.app/) 
-* [live version en  000webhost](https://proyectofinal-rodolfocuevas.000webhostapp.com/index.html)
+* [live version en  000webhost](https://proyectofinal-rodolfocuevas.000webhostapp.com/)
 
 
 
